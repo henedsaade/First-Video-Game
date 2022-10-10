@@ -1,22 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 27, in script
-    Detective Fauteux "Hello Detective! I am Detective Fauteux. I've invited you here because there's been a series of murders plaguing our town."
-Exception: Sayer 'Detective' is not defined.
+  File "game/script.rpy", line 31, in script call
+    call proceed
+  File "game/script.rpy", line 31, in script call
+    call proceed
+ScriptError: could not find label 'proceed'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 27, in script
-    Detective Fauteux "Hello Detective! I am Detective Fauteux. I've invited you here because there's been a series of murders plaguing our town."
-  File "D:\RenPy\renpy-8.0.1-sdk\renpy\ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\RenPy\renpy-8.0.1-sdk\renpy\ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'Detective' is not defined.
+  File "game/script.rpy", line 31, in script call
+    call proceed
+  File "D:\RenPy\renpy-8.0.1-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 31, in script call
+    call proceed
+  File "D:\RenPy\renpy-8.0.1-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'proceed'.
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.0.1.22070801
 project 1.0
-Mon Oct 10 15:39:52 2022
+Mon Oct 10 16:10:27 2022

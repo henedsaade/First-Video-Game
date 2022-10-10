@@ -28,6 +28,4 @@ label start:
 
     Detective "We need your expertise to help us solve these cases. Are you willing to help us?"
 
-    # This ends the game.
-
     return

@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 6: expected '=' not found.
-    define Detective Fauteux = Character("Detective Fauteux")
-                     ^
+File "game/script.rpy", line 31: end of line expected.
+    show screen proceed():
+                         ^
+
+File "game/script.rpy", line 32: expected statement.
+    tag menu
+        ^
+
+File "game/script.rpy", line 33: expected statement.
+    modal True
+              ^
+
+File "game/script.rpy", line 35: expected statement.
+    text _("This game contains gratuitous amounts of text\nDo you wish to continue?")
+          ^
+
+File "game/script.rpy", line 37: expected statement.
+    textbutton _("Yes") action Return()
+                ^
+
+File "game/script.rpy", line 38: expected statement.
+    textbutton _("No") action Quit(confirm=False)
+                ^
 
 Ren'Py Version: Ren'Py 8.0.1.22070801
-Mon Oct 10 15:40:29 2022
+Mon Oct 10 16:12:08 2022
