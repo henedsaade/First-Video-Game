@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define hened = Character("Hened")
+define Detective = Character("Detective Fauteux")
 
 
 # The game starts here.
@@ -20,13 +20,13 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show Detective Fauteux
+    show Detective
 
     # These display lines of dialogue.
 
-    Detective Fauteux "Hello Detective! I am Detective Fauteux. I've invited you here because there's been a series of murders plaguing our town."
+    Detective "Hello Detective! I am Detective Fauteux. I've invited you here because there's been a series of murders plaguing our town."
 
-    Detective Fauteux "We need your expertise to help us solve these cases. Are you willing to help us?"
+    Detective "We need your expertise to help us solve these cases. Are you willing to help us?"
 
     # This ends the game.
 

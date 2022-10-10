@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 18: end of line expected.
-    show room.png
-             ^
+File "game/script.rpy", line 6: expected '=' not found.
+    define Detective Fauteux = Character("Detective Fauteux")
+                     ^
 
 Ren'Py Version: Ren'Py 8.0.1.22070801
-Tue Jul 12 01:49:10 2022
+Mon Oct 10 15:40:29 2022
