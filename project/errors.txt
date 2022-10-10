@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 18: end of line expected.
+    show room.png
+             ^
+
+Ren'Py Version: Ren'Py 8.0.1.22070801
+Tue Jul 12 01:49:10 2022
